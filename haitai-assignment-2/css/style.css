@@ -1,0 +1,123 @@
+body {
+    max-width: 790px;
+    margin: 0 auto;
+}
+#main {
+    border: 2px solid #e3e3e3;
+    min-width: 784px;
+    padding: 56px 57px 58px;
+}
+#section-header {
+    min-width: 670px;
+}
+.border-bottom {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #efefef;
+    box-shadow: 1px 1px #fcfcfc;
+}
+.border-bottom::after {
+    content: "";
+    clear: right;
+}
+.recruitment-guide {
+    display: inline-block;
+    background: url("../images/org-round.png");
+    width: 16px;
+    height: 16px;
+}
+.recruitment-guide-text {
+    display: inline-block;
+    margin-left: 27px;
+    font-size: 20px;
+    letter-spacing: -25%;
+    white-space: nowrap;
+}
+.text-grey-org {
+    display: block;
+    float: right;
+}
+.text-grey-org-a {
+    text-decoration: none;
+    background: url("../images/&gt;.png") no-repeat right center;
+}
+.text-grey {
+    color: #c8c8c8;
+    font-size: 11px;
+    letter-spacing: -25%;
+}
+.sec-header-p {
+    margin: 29px 0;
+}
+#section {
+    border: 3px solid #ececec;
+    /*
+    width: auto;
+    height: auto;
+    */
+    max-width: 670px;
+    /*
+    max-height: 443px;
+    min-width: 663px;
+    */
+    min-height: 385px;
+    border-left: 2px solid #ececec;
+    box-shadow: -1px 0 0 #f2f2f2;
+    box-shadow: 1px 0 0 #f9f9f9 inset;
+    padding: 35px 25px 33px 27px;
+}
+#section-top {
+    display: inline-block;
+    margin-left: 20px;
+}
+#section-top::after {
+    content: "";
+    clear: left;
+}
+#section-logo-2 {
+    width: 229px;
+    margin-left: 20px;
+    float: left;
+}
+.logo-2.logo-2-bottom {
+    display: inline-block;
+}
+.logo-2 {
+    margin-bottom: 19px;
+}
+#section-right {
+    min-width: 307px;
+    min-height: 241px;
+    padding: 1px 54px 0 27px;
+    border-left: 1px dotted #cacaca;
+    float: left;
+}
+.section-right-1 {
+    margin-bottom: 30px;
+}
+.section-right-2 {
+    margin-bottom: 27px;
+}
+#org-button {
+    margin: 9px 0 0 -1px;
+}
+#section-bottom {
+    margin: 29px 25px 33px 27px;
+}
+.recruitment-procedure {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #efefef;
+}
+.box-01-05 {
+    margin-top: 15px;
+}
+.box-01-05::after {
+    content: "";
+    clear: left;
+}
+li {
+    margin-right: 2px;
+    float: left;
+}
+.main-bottom-p {
+    margin: 35px 230px 0 10px;
+}
