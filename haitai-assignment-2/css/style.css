@@ -12,23 +12,20 @@ body {
 }
 .border-bottom {
     padding-bottom: 4px;
-    border-bottom: 1px solid #efefef;
-    box-shadow: 1px 1px #fcfcfc;
 }
 .border-bottom::after {
     content: "";
     clear: right;
 }
-.recruitment-guide {
+.org-round {
     display: inline-block;
     background: url("../images/org-round.png") no-repeat;
 }
-.recruitment-guide-text {
+.recruitment-guide-text, .HRM {
     display: inline-block;
     margin-left: 27px;
     font-size: 20px;
     letter-spacing: -25%;
-    white-space: nowrap;
 }
 .text-grey-org {
     display: block;
@@ -37,6 +34,7 @@ body {
 .text-grey-org-a {
     width: 53px;
     height: 10px;
+    margin-right: 5px;
     text-decoration: none;
     background: url("../images/&gt.png") no-repeat right;
 }
@@ -62,12 +60,30 @@ body {
     letter-spacing: -25%;
     */
 }
+.section-header-p {
+    margin-top: 28px;
+}
+.section-header-p-grey {
+    color: #9b9b9b;
+    font-size: 15px;
+}
+.section-header-p-org {
+    color: #f7941e;
+    font-size: 18px;
+    font-weight: bolder;
+}
 #section {
     border: 3px solid #ececec;
     border-left: 2px solid #ececec;
     box-shadow: -1px 0 0 #f2f2f2;
     box-shadow: 1px 0 0 #f9f9f9 inset;
     padding: 35px 25px 33px 27px;
+}
+#section-2 {
+    border: 3px solid #ececec;
+    padding: 30px 95px 30px 30px;
+    margin-top: 30px;
+    position: relative;
 }
 #section-top {
     display: inline-block;
@@ -125,16 +141,67 @@ body {
     color: #f7941e;
     font-weight: bold;
 }
-.box-01-05 {
-    margin-top: 15px;
-}
 .box-01-05::after {
     content: "";
     clear: left;
 }
-li {
+.box, .box-2 {
+    color: #a19f9f;
     margin-right: 2px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 51px;
+    font-weight: bolder;
     float: left;
+}
+.box {
+    background: url("../images/box-shape.png");
+    width: 121px;
+    height: 51px;
+}
+
+    /*
+    position: relative;
+    border: 3px #dfdfdf solid;
+}
+.box::after {
+    border-top: 3px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 12px;
+}
+    */
+
+.box-2 {
+    width: 109px;
+    height: 45px;
+    border: 3px #dfdfdf solid;
+}
+
+/*인사관리 section 부분*/
+.section-p-1 {
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #cacaca;
+}
+.yellow-box, .org-box {
+    width: 65px;
+    height: 65px;
+    margin-right: 22px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: block;
+    float: left;
+}
+.yellow-box {
+    background: #ffba00;
+}
+.org-box {
+    background: #ff9500;
 }
 .main-bottom-p {
     margin: 35px 230px 0 10px;
