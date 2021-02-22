@@ -21,9 +21,7 @@ body {
 }
 .recruitment-guide {
     display: inline-block;
-    background: url("../images/org-round.png");
-    width: 16px;
-    height: 16px;
+    background: url("../images/org-round.png") no-repeat;
 }
 .recruitment-guide-text {
     display: inline-block;
@@ -37,29 +35,35 @@ body {
     float: right;
 }
 .text-grey-org-a {
+    width: 53px;
+    height: 10px;
     text-decoration: none;
-    background: url("../images/&gt;.png") no-repeat right center;
+    background: url("../images/&gt.png") no-repeat right;
 }
-.text-grey {
+.text-grey{
     color: #c8c8c8;
-    font-size: 11px;
+    font-size: 13px;
+    /*
     letter-spacing: -25%;
+    */
+}
+.text-org {
+    color: #f7941e;
+    font-size: 13px;
+    font-weight: bold;
+    /*
+    letter-spacing: -25%;
+    */
 }
 .sec-header-p {
     margin: 29px 0;
+    font-size: 18px;
+    /*
+    letter-spacing: -25%;
+    */
 }
 #section {
     border: 3px solid #ececec;
-    /*
-    width: auto;
-    height: auto;
-    */
-    max-width: 670px;
-    /*
-    max-height: 443px;
-    min-width: 663px;
-    */
-    min-height: 385px;
     border-left: 2px solid #ececec;
     box-shadow: -1px 0 0 #f2f2f2;
     box-shadow: 1px 0 0 #f9f9f9 inset;
@@ -78,6 +82,10 @@ body {
     margin-left: 20px;
     float: left;
 }
+.logo-2-bottom {
+    color: #9b9b9b;
+    font-size: 15px;
+}
 .logo-2.logo-2-bottom {
     display: inline-block;
 }
@@ -85,9 +93,7 @@ body {
     margin-bottom: 19px;
 }
 #section-right {
-    min-width: 307px;
-    min-height: 241px;
-    padding: 1px 54px 0 27px;
+    padding: 1px 0 0 27px;
     border-left: 1px dotted #cacaca;
     float: left;
 }
@@ -96,6 +102,15 @@ body {
 }
 .section-right-2 {
     margin-bottom: 27px;
+}
+.section-right-org {
+    font-size: 15px;
+    font-weight: bold;
+    color: #f7941e;
+}
+.section-right-p {
+    color: #9b9b9b;
+    font-size: 14px;
 }
 #org-button {
     margin: 9px 0 0 -1px;
@@ -106,6 +121,9 @@ body {
 .recruitment-procedure {
     padding-bottom: 12px;
     border-bottom: 1px solid #efefef;
+    font-size: 17px;
+    color: #f7941e;
+    font-weight: bold;
 }
 .box-01-05 {
     margin-top: 15px;
@@ -120,4 +138,6 @@ li {
 }
 .main-bottom-p {
     margin: 35px 230px 0 10px;
+    color: #9b9b9b;
+    font-size: 13px;
 }
