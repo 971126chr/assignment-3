@@ -84,6 +84,7 @@ body {
     padding: 30px 95px 30px 30px;
     margin-top: 30px;
     position: relative;
+    color: #9b9b9b;
 }
 #section-top {
     display: inline-block;
@@ -129,7 +130,15 @@ body {
     font-size: 14px;
 }
 #org-button {
+    width: 77px;
+    height: 22px;
     margin: 9px 0 0 -1px;
+    font-size: 11px;
+    background: #ff9500;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px #d6d6d6;
 }
 #section-bottom {
     margin: 29px 25px 33px 27px;
@@ -194,7 +203,6 @@ body {
     text-align: center;
     font-size: 20px;
     color: white;
-    display: block;
     float: left;
 }
 .yellow-box {
@@ -207,4 +215,52 @@ body {
     margin: 35px 230px 0 10px;
     color: #9b9b9b;
     font-size: 13px;
+}
+.list-1,.list-2,.list-3,.list-4 {
+    list-style: url("../images/ul-image.png") inside;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.section-p-2 {
+    padding: 20px 0;
+    border-bottom: 1px dotted #cacaca;
+}
+.list-2 {
+    position: relative;
+    top: -33px;
+}
+.section-p-3 {
+    min-width: 549px;
+    min-height: 149px;
+    padding: 29px 30px 45px 0;
+    border-bottom: 1px dotted #cacaca;
+}
+.section-p-4 {
+    min-width: 358px;
+    min-height: 194px;
+    padding-top: 30px;
+    position: relative;
+}
+dl::after {
+    content: "";
+    clear: left;
+}
+.dt-style {
+    float: left;
+}
+.dd-style {
+    text-indent: 125px;
+}
+.dd-style-2 {
+    text-indent: 170px;
+}
+.last-p-top {
+    display: inline-block;
+    position: absolute;
+    margin: 1px 0 24px;
+}
+.list-4 {
+    position: relative;
+    top: 34px;
+    word-spacing: -50%;
 }
