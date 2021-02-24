@@ -100,10 +100,6 @@ body {
     color: #9b9b9b;
     font-size: 15px;
 }
-#section-3 {
-    border: 3px solid #ececec;
-    padding: 0 60px 53px;
-}
 #section-top {
     display: inline-block;
     margin-left: 20px;
@@ -294,4 +290,86 @@ dl::after {
 .list-4 {
     position: relative;
     top: 34px;
+}
+
+/*실전지침 section*/
+
+#tab-head-area {
+    width: 271px;
+    height: 29px;
+}
+.tab-head-list::after {
+    content: "";
+    clear: left;
+}
+.tab-box-1,.tab-box-2 {
+    width: 135px;
+    height: 29px;
+    margin-right: 1px;
+    background: #c1c1c1;
+    padding: 6px 0 0 38px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+.tab-box-2 {
+    margin-right: 0;
+    background: #ff9500;
+}
+/*
+.tab-box-2:visited {
+
+}
+.white-block {
+    width: 16px;
+    height: 4px;
+    position: relative;
+    top: 12px;
+    left: 0;
+    float: left;
+    margin: 0px;
+    z-index: 1;
+}
+*/
+.tab-box-text {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+#section-3 {
+    max-width: 664px;
+    border: 3px solid #ececec;
+    padding: 20px 18px 63px 21px;
+}
+.section-h2,.section-h2-2 {
+    color: #949494;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.section-h2-2 {
+    margin: 22px 0 8px;
+}
+.section-box {
+    width: 622px;
+    height: 41px;
+    background: #f4f4f4;
+    margin-top: 16px;
+}
+.section-box-list {
+    counter-reset: item;
+    list-style-type: none;
+}
+.section-box-listnum {
+    color: #9b9b9b;
+    font-size: 14px;
+    padding: 14px 8.5px 0;
+    float: left;
+}
+.section-box-listnum::before {
+    content: counter(item, decimal-leading-zero) "";
+    counter-increment: item;
+    margin-right: 6px;
+    color: #ff8416;
+    font-weight: bold;
 }
