@@ -211,7 +211,10 @@ body {
 
 /*인사관리 section 부분*/
 
-.section-p-1, .section-p-2, .section-p-3, .section-p-4 {
+.section-p-1 {
+    border-bottom: 1px dotted #cacaca;
+}
+.section-p-2, .section-p-3, .section-p-4 {
     padding-bottom: 20px;
     border-bottom: 1px dotted #cacaca;
 }
@@ -226,8 +229,7 @@ body {
     text-align: center;
     font-size: 20px;
     color: white;
-    display: block;
-    float: left;
+    display: inline-block;
 }
 .yellow-box,.yellow-box-2 {
     background: #ffba00;
@@ -247,19 +249,25 @@ body {
     list-style: url("../images/ul-image.png") inside;
     vertical-align: middle;
     line-height: 20px;
+    display: inline-block;
+    position: relative;
+}
+.list-1,.list-3 {
+    top: -60px;
+    right: -90px;
 }
 .section-p-2 {
     padding-top: 20px;
 }
 .list-2 {
-    position: relative;
-    top: 0px;
+    top: -20px;
 }
 .list-3 {
     list-style: url("../images/ul-image.png") outside;
+    right: -105px;
 }
 .section-p-3 {
-    padding: 29px 30px 45px 0;
+    padding: 29px 30px 0 0;
 }
 .section-p-4 {
     padding-top: 30px;
@@ -272,14 +280,12 @@ dl::after {
 .dt-style {
     float: left;
 }
-/*
 .dd-style {
-    text-indent: 125px;
+    text-indent: 100px;
 }
 .dd-style-2 {
-    text-indent: 170px;
+    text-indent: 135px;
 }
-*/
 .last-p-top {
     display: inline-block;
     position: absolute;
