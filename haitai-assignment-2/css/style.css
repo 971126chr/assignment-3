@@ -350,13 +350,13 @@ dl::after {
 .section-h2-2 {
     margin: 22px 0 8px;
 }
-.section-box, .section-box-list-2 {
+.section-box,.section-box-2 {
     width: 622px;
     height: 41px;
     background: #f4f4f4;
     margin-top: 16px;
 }
-.section-box-list,.section-box-list-2 {
+.section-box-list {
     counter-reset: item;
     list-style-type: none;
 }
@@ -373,7 +373,36 @@ dl::after {
     color: #ff8416;
     font-weight: bold;
 }
-.section-box-list-2 {
+.section-box-2 {
     width: 622px;
     height: 73px;
+}
+#description {
+    max-width: 624px;
+    padding: 22px 18px 0 0;
+    color: #949494;
+    font-size: 13px;
+    line-height: -3px;
+}
+.description-title,.description-org-title {
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.description-small-title {
+    font-weight: bold;
+}
+.description-section {
+    margin-bottom: 22px;
+    padding-left: 8px;
+}
+.description-list {
+    font-size: 12px;
+    list-style: upper-roman inside;
+}
+.description-org-title {
+    color: #ff9501;
+}
+.description-small-list {
+    list-style: none;
+    padding-left: 8px;
 }
