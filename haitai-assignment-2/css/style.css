@@ -3,10 +3,13 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
 }
-#main {
-    border: 2px solid #e3e3e3;
+#main,.main-border-y {
+    background: url("../images/section-border.png") repeat-x;
     min-width: 784px;
     padding: 56px 57px 58px;
+}
+.main-border-y {
+    background: url("../images/section-border.png") repeat-y;
 }
 #main-2 {
     padding: 62px 60px 53px;
@@ -20,6 +23,8 @@ body {
 }
 .border-bottom {
     padding-bottom: 4px;
+    background: url("../images/section-header-border-bottom.png") repeat-x;
+    background-position: bottom;
 }
 .border-bottom::after {
     content: "";
@@ -125,11 +130,14 @@ body {
     display: inline-block;
 }
 .logo-2 {
+    background: url("../images/logo-2.png");
+    width: 191px;
+    height: 114px;
     margin-bottom: 19px;
 }
 #section-right {
     padding: 1px 0 0 27px;
-    border-left: 1px dotted #cacaca;
+    background: url("../images/section-center-line.png") repeat-y;
     float: left;
 }
 .section-right-1 {
@@ -213,12 +221,12 @@ body {
 
 /*인사관리 section 부분*/
 
-.section-p-1 {
-    border-bottom: 1px dotted #cacaca;
+.section-p-1,.section-p-2, .section-p-3, .section-p-4,.section-h2-border {
+    background: url("../images/section-border-bottom.png") repeat-x;
+    background-position: bottom;
 }
 .section-p-2, .section-p-3, .section-p-4 {
     padding-bottom: 20px;
-    border-bottom: 1px dotted #cacaca;
 }
 .section-p-1, .section-p-2, .section-p-3, .section-p-4::after {
     content: "";
@@ -346,6 +354,9 @@ dl::after {
     max-width: 664px;
     border: 3px solid #ececec;
     padding: 20px 18px 63px 21px;
+}
+.section-h2-border {
+    padding-bottom: 8px;
 }
 .section-h2,.section-h2-2 {
     color: #949494;
