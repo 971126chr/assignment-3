@@ -1,15 +1,26 @@
 body {
-    max-width: 790px;
     margin: 0 auto;
     box-sizing: border-box;
 }
-#main,.main-border-y {
-    background: url("../images/section-border.png") repeat-x;
+#main {
     min-width: 784px;
     padding: 56px 57px 58px;
 }
-.main-border-y {
-    background: url("../images/section-border.png") repeat-y;
+.main-border-top-x {
+    background: url("../images/main-border.png") repeat-x top;
+    padding-top: 56px;
+}
+.main-border-right-y {
+    background: url("../images/main-border.png") repeat-y right;
+    padding-right: 57px;
+}
+.main-border-bottom-x {
+    background: url("../images/main-border.png") repeat-x bottom;
+    padding-bottom: 58px;
+}
+.main-border-left-y {
+    background: url("../images/main-border.png") repeat-y left;
+    padding-left: 57px;
 }
 #main-2 {
     padding: 62px 60px 53px;
@@ -95,11 +106,25 @@ body {
     font-weight: bolder;
 }
 #section {
-    border: 3px solid #ececec;
-    border-left: 2px solid #ececec;
-    box-shadow: -1px 0 0 #f2f2f2;
-    box-shadow: 1px 0 0 #f9f9f9 inset;
     padding: 35px 25px 33px 27px;
+}
+.section-top-border {
+    background: url("../images/assignment-1-section-x.png") repeat-x top;
+    padding-top: 35px;
+}
+.section-right-border {
+    background: url("../images/assignment-1-section-right-border.png") repeat-y right;
+    padding-right: 25px;
+}
+.section-bottom-border {
+    background: url("../images/assignment-1-section-x.png") repeat-x bottom;
+    padding-bottom: 33px;
+}
+.section-left-border {
+    background: url("../images/assignment-1-section-y-left.png") repeat-y left;
+    /*
+    padding-left: 27px;
+    */
 }
 #section-2 {
     border: 3px solid #ececec;
